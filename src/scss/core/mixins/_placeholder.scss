@@ -1,0 +1,9 @@
+@mixin placeholder($color: #999) {
+  ::-webkit-input-placeholder {
+    color: $color;
+  }
+
+  ::placeholder {
+    color: $color;
+  }
+}

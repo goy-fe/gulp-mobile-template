@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+
+  img {
+    vertical-align: top;
+  }
+}
+
+a,
+img {
+  -webkit-touch-callout: none;
+}
+
+img {
+  border: none;
+}
+
+html {
+  text-size-adjust: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+}
+
+input,
+button,
+textarea,
+select,
+option {
+  appearance: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+textarea {
+  resize: none;
+  overflow-y: auto;
+}
+
+// @include placeholder;
+// @include hide-scrollbar;
