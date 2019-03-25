@@ -27,6 +27,10 @@
     "*.js": [
       "prettier --write",
       "git add"
+    ],
+    "*.scss": [
+      "prettier --write",
+      "git add"
     ]
   },
   "author": "ntnyq <ntnyq13@gmail.com>",
