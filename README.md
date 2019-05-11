@@ -7,6 +7,10 @@
 <!-- toc -->
 
 - [集成功能](#%E9%9B%86%E6%88%90%E5%8A%9F%E8%83%BD)
+- [使用](#%E4%BD%BF%E7%94%A8)
+  * [开发环境](#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
+  * [打包项目](#%E6%89%93%E5%8C%85%E9%A1%B9%E7%9B%AE)
+- [LICENSE](#license)
 
 <!-- tocstop -->
 
@@ -38,3 +42,7 @@ $ yarn dev
 ``` bash
 $ yarn build
 ```
+
+## LICENSE
+
+[LICENSE](./LICENSE)
