@@ -13,10 +13,10 @@ const {
   distDir = 'dist',
   sassConfig = {},
   base64Config = {}
-} = readFileData(resolve(__dirname, 'config.yml'))
+} = readYamlFile(resolve(__dirname, 'config.yml'))
 const destDir = () => isProduction() ? distDir : devDir
 
-function readFileData (path) {
+function readYamlFile (path) {
   let data = {}
 
   if (fs.existsSync(path)) {
