@@ -7,7 +7,7 @@ distDir: dist
 
 # config for sass
 sassConfig:
-  outputStyle: compressed
+  outputStyle: expanded
   precision: 5
   sourceComments: false
 
@@ -17,3 +17,6 @@ base64Config:
     - svg
     - png
   maxImageSize: 8192 # 8kb
+
+# Compress css & js file, transform small png to base64
+# minify: true

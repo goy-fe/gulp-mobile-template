@@ -18,3 +18,6 @@ yarn-error.log*
 # Dev
 /dev
 /temp
+
+# Uncomment below if wanna it tracked by git
+/dist

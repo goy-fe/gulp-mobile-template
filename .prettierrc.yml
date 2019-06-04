@@ -10,6 +10,6 @@ arrowParens: avoid
 endOfLine: lf
 
 overrides:
-  - files: '*.{scss,css,html}'
+  - files: '*.scss'
     options:
       singleQuote: false
